@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Kafka.Core.Demo", "My.Kafka.Core.Demo\My.Kafka.Core.Demo.csproj", "{9453C615-FB77-4842-B0BF-2B7F50E6946F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Kafka.Demo.Consumer", "My.Kafka.Demo.Consumer\My.Kafka.Demo.Consumer.csproj", "{E6176C02-B047-47CC-87D1-E5D893FC92CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Kafka.Demo.Producer", "My.Kafka.Demo.Producer\My.Kafka.Demo.Producer.csproj", "{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pub Sub", "Pub Sub", "{9958D281-7D07-497C-897C-FFE97E4C0F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CAP", "CAP", "{83E5118F-6BF7-44A7-916B-F46B15ECFDAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.WebAPI", "Catalog.WebAPI\Catalog.WebAPI.csproj", "{9883C4FC-A829-40B7-909B-B4E58E98C43D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.WebAPI", "Basket.WebAPI\Basket.WebAPI.csproj", "{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{0434C0C7-602F-4692-9E0C-62A67A2CA598}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9453C615-FB77-4842-B0BF-2B7F50E6946F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9453C615-FB77-4842-B0BF-2B7F50E6946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9453C615-FB77-4842-B0BF-2B7F50E6946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9453C615-FB77-4842-B0BF-2B7F50E6946F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6176C02-B047-47CC-87D1-E5D893FC92CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6176C02-B047-47CC-87D1-E5D893FC92CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6176C02-B047-47CC-87D1-E5D893FC92CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6176C02-B047-47CC-87D1-E5D893FC92CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9883C4FC-A829-40B7-909B-B4E58E98C43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9883C4FC-A829-40B7-909B-B4E58E98C43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9883C4FC-A829-40B7-909B-B4E58E98C43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9883C4FC-A829-40B7-909B-B4E58E98C43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9453C615-FB77-4842-B0BF-2B7F50E6946F} = {9958D281-7D07-497C-897C-FFE97E4C0F40}
+		{E6176C02-B047-47CC-87D1-E5D893FC92CB} = {9958D281-7D07-497C-897C-FFE97E4C0F40}
+		{45D99E08-F8BC-4D70-9B04-1CA8197EE9DD} = {9958D281-7D07-497C-897C-FFE97E4C0F40}
+		{9883C4FC-A829-40B7-909B-B4E58E98C43D} = {83E5118F-6BF7-44A7-916B-F46B15ECFDAC}
+		{EAA437EC-DD8E-46E6-8EB8-39C9010B87CE} = {83E5118F-6BF7-44A7-916B-F46B15ECFDAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46E51779-4B7C-43FF-873C-2612A29D73DB}
+	EndGlobalSection
+EndGlobal
